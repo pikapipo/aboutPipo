@@ -23,8 +23,10 @@ function Home() {
               <h1 className="heading-name">
                 I'M
                 <strong className="main-name"> GRIS</strong>
+                
               </h1>
 
+             
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type /><br/><br/> <br/>
               </div>
