@@ -19,7 +19,7 @@ function Stories() {
       {/* translatedByGris */}
       <Container>
         <h1 className="project-heading">
-        translatedBy<strong className="purple">Gris</strong>
+          translatedBy<strong className="purple">Gris</strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few Stories I've translated.
@@ -48,7 +48,7 @@ function Stories() {
           </Col>
 
           <Col md={4} className="project-card">
-          <StoriesCard
+            <StoriesCard
               imgPath={days}
               isBlog={false}
               title="Five Days"
@@ -59,7 +59,7 @@ function Stories() {
           </Col>
 
           <Col md={4} className="project-card">
-          <StoriesCard
+            <StoriesCard
               imgPath={soft}
               isBlog={false}
               title="Soft As It Began"
@@ -70,7 +70,7 @@ function Stories() {
           </Col>
 
           <Col md={4} className="project-card">
-          <StoriesCard
+            <StoriesCard
               imgPath={who}
               isBlog={false}
               title="Who I Was With You"
@@ -81,7 +81,7 @@ function Stories() {
           </Col>
 
           <Col md={4} className="project-card">
-          <StoriesCard
+            <StoriesCard
               imgPath={jamais}
               isBlog={false}
               title="Jamais Vu"
@@ -92,17 +92,15 @@ function Stories() {
           </Col>
         </Row>
       </Container>
-<br/><br/>
-
+      <br />
+      <br />
 
       {/* madebyGris */}
       <Container>
         <h1 className="project-heading">
-        madeBy<strong className="purple">Gris</strong>
+          madeBy<strong className="purple">Gris</strong>
         </h1>
-        <p style={{ color: "white" }}>
-          Here are a few Stories I've written.
-        </p>
+        <p style={{ color: "white" }}>Here are a few Stories I've written.</p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <StoriesCard
@@ -126,21 +124,24 @@ function Stories() {
           </Col>
 
           <Col md={4} className="project-card">
-          <StoriesCard
+            <StoriesCard
               imgPath={thuong}
               isBlog={false}
               title="Unexpected Love"
               description="Thương em là điều anh không thể ngờ"
             />
           </Col>
-
-         
         </Row>
       </Container>
-<br/><br/>
+      <br />
+      <br />
       <h1 className="project-heading">
-      "tell your cat i said <strong className="purple">pspsps!</strong>" 😼
-        </h1><br/><br/><br/><br/>
+        "tell your cat i said <strong className="purple">pspsps!</strong>" 😼
+      </h1>
+      <br />
+      <br />
+      <br />
+      <br />
     </Container>
   );
 }

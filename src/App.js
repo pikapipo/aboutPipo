@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import Stories from "./components/Stories/Stories";
 import Footer from "./components/Footer";
-import Resume from "./components/Resume/ResumeNew";
+import Download from "./components/Download/ResumeNew";
 import {
   BrowserRouter as Router,
   Route,
@@ -36,7 +36,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/stories" element={<Stories />} />
-          <Route path="/resume" element={<Resume />} />
+          <Route path="/download" element={<Download />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
