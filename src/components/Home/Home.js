@@ -26,11 +26,11 @@ function Home() {
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
-                <Type />
+                <Type /><br/><br/> <br/>
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 10 }}>
+            <Col md={5} style={{ paddingBottom: 10, textAlign: "center"  }}>
               <img
                 src={homeLogo}
                 alt="home pic"
