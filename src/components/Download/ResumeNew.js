@@ -44,6 +44,7 @@ function ResumeNew() {
                   <b className="purple">
                     <br />
                     Enjoy!
+                    <br /> <br />
                   </b>
                 </i>
               </p>
@@ -52,7 +53,7 @@ function ResumeNew() {
                   variant="primary"
                   href={pdf}
                   target="_blank"
-                  style={{ maxWidth: "250px", marginBottom: "10px" }}
+                  style={{ maxWidth: "250px", marginBottom: "20px" }}
                 >
                   <AiOutlineDownload />
                   &nbsp;Tải bản dịch
