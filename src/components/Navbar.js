@@ -5,8 +5,8 @@ import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { ImBlog } from "react-icons/im";
 import { SiWattpad } from "react-icons/si";
+import { FaRegShareSquare } from "react-icons/fa";
 import { MdMenuBook } from "react-icons/md";
 import {
   AiOutlineHome,
@@ -73,10 +73,10 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/download"
+                to="/sharing"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Download
+                <FaRegShareSquare style={{ marginBottom: "2px" }} /> Sharing
               </Nav.Link>
             </Nav.Item>
 

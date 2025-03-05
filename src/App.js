@@ -36,7 +36,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/stories" element={<Stories />} />
-          <Route path="/download" element={<Download />} />
+          <Route path="/sharing" element={<Download />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />

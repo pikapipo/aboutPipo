@@ -83,12 +83,20 @@ function ResumeNew() {
               </Tilt>
             </Col>
           </Row>
+          <br />
+          <br />
+          <br />
+          <h1 className="project-heading">
+            sharing is <strong className="purple">caring</strong>
+          </h1>
+          <p style={{ color: "white", fontSize: "1.5em" }}>
+            Ngoài ra thì các file bản dịch của mình luôn có sẵn, nếu các bạn cần
+            thì cứ liên hệ mình. ✨
+          </p>
         </Container>
-        <br /><br /><br />
-        <h1 className="project-heading">
-          sharing is <strong className="purple">caring</strong>
-        </h1>
-        <br /><br /><br />
+        <br />
+        <br />
+        <br />
       </Container>
     </div>
   );
