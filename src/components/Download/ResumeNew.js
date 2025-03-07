@@ -19,7 +19,7 @@ function ResumeNew() {
         <Container>
           <Row>
             <Col md={8} className="home-about-description">
-              <h1 style={{ fontSize: "2.6em" }}>
+              <h1 style={{ fontSize: "2.5em" }}>
                 Kẹo<span className="purple"> Bạc Hà</span> / Sẹo{" "}
                 <span className="purple">Chiến Tranh</span>
               </h1>
