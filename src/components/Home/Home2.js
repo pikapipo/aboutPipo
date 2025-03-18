@@ -82,7 +82,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://archiveofourown.org/users/grisverse/"
+                  href="https://archiveofourown.org/users/aboutGris"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
