@@ -1,8 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillInstagram } from "react-icons/ai";
 import { SiWattpad } from "react-icons/si";
 import { FaTumblr } from "react-icons/fa";
 import { TbBrandAo3 } from "react-icons/tb";
@@ -14,18 +12,18 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>aboutgris.xx@gmail.com</h3>
+          <h3>ngaan.pipo@gmail.com</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} _GRIS</h3>
+          <h3>Copyright © {year} @pikapipo</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://www.wattpad.com/user/_aboutGris"
+                href="https://www.wattpad.com/user/pikapipo"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <SiWattpad />
@@ -35,7 +33,7 @@ function Footer() {
               <a
                 href="https://aboutgris.tumblr.com/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaTumblr />
@@ -43,9 +41,9 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://archiveofourown.org/users/aboutGris"
+                href="https://archiveofourown.org/users/pikapipo"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <TbBrandAo3 />
@@ -55,7 +53,7 @@ function Footer() {
               <a
                 href="https://www.instagram.com/wisngaan_/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />

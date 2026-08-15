@@ -8,9 +8,7 @@ import { Link } from "react-router-dom";
 import { SiWattpad } from "react-icons/si";
 import { FaRegShareSquare } from "react-icons/fa";
 import { MdMenuBook } from "react-icons/md";
-import {
-  AiOutlineHome,
-} from "react-icons/ai";
+import { AiOutlineHome } from "react-icons/ai";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -61,10 +59,7 @@ function NavBar() {
                 to="/stories"
                 onClick={() => updateExpanded(false)}
               >
-                <MdMenuBook
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Stories
+                <MdMenuBook style={{ marginBottom: "2px" }} /> Stories
               </Nav.Link>
             </Nav.Item>
 
@@ -80,7 +75,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://www.wattpad.com/user/_aboutGris"
+                href="https://www.wattpad.com/user/pikapipo"
                 target="_blank"
                 className="fork-btn-inner"
               >

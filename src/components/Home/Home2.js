@@ -2,9 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillInstagram } from "react-icons/ai";
 import { SiWattpad } from "react-icons/si";
 import { FaTumblr } from "react-icons/fa";
 import { TbBrandAo3 } from "react-icons/tb";
@@ -15,36 +13,42 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              _<span className="purple">about</span>Gris<br/>
-              <span style={{ fontSize: "0.5em" }}>she/her | Based in Vietnam 🇻🇳 | Ravenclaw 🦅</span>
+              <span>@pika</span><span  className="purple">pipo</span>
+              <br />
+              <span style={{ fontSize: "0.5em" }}>
+                she/her | Based in Vietnam 🇻🇳 | Ravenclaw 🦅
+              </span>
             </h1>
-          
+
             <p className="home-about-body">
-            <b className="purple">A daydreamer</b>, so lost in my thoughts that i'm forgetting the world around me, i think… 🤷‍♂️
+              <b className="purple">A daydreamer</b>, so lost in my thoughts
+              that i'm forgetting the world around me, i think… 🤷‍♂️
               <br />
               <br />I fell in love with
               <i>
-                <b className="purple"> Dramione </b> 
-              </i> , and I love these two idiots so bad. ✨
+                <b className="purple"> Dramione </b>
+              </i>{" "}
+              , and I love these two idiots so bad. ✨
               <br />
               <br />
               Welcome to my Dramione world! &nbsp;
               <i>
-                <b className="purple">I hope the stories I bring will make you happy. </b>{" "}
                 <b className="purple">
-                </b>
+                  I hope the stories I bring will make you happy.{" "}
+                </b>{" "}
+                <b className="purple"></b>
               </i>
               <br />
               <br />
-              Don't forget to leave some lovely comments on <b className="purple">my fics!</b> Hihi 💕✨ <br/>
-              <i> 
+              Don't forget to leave some lovely comments on{" "}
+              <b className="purple">my fics!</b> Hihi 💕✨ <br />
+              <i>
                 <b className="purple">
                   {" "}
-                  <br/>Many thanks!
+                  <br />
+                  Many thanks!
                 </b>
               </i>
-             
-             
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -62,7 +66,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://www.wattpad.com/user/_aboutGris"
+                  href="https://www.wattpad.com/user/pikapipo"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -82,7 +86,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://archiveofourown.org/users/aboutGris"
+                  href="https://archiveofourown.org/users/pikapipo"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

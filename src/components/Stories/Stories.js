@@ -16,10 +16,9 @@ function Stories() {
   return (
     <Container fluid className="project-section">
       <Particle />
-      {/* translatedByGris */}
       <Container>
         <h1 className="project-heading">
-          translatedBy<strong className="purple">Gris</strong>
+          translatedBy<strong className="purple">Pipo</strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few Stories I've translated.
@@ -95,10 +94,10 @@ function Stories() {
       <br />
       <br />
 
-      {/* madebyGris */}
+  
       <Container>
         <h1 className="project-heading">
-          madeBy<strong className="purple">Gris</strong>
+          madeBy<strong className="purple">Pipo</strong>
         </h1>
         <p style={{ color: "white" }}>Here are a few Stories I've written.</p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
